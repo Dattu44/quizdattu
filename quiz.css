@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#sdiv{
+    width: 80%;
+    height: 400px;
+    margin: 10% auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#startbtn{
+    width:200px;
+    height: auto;
+    border: 1px solid #E15FED;
+    padding: 10% 5%;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #E15FED;
+    color: #EFFFFD;
+    font-weight: bold;
+}
+#body {
+
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 1% auto;
+    background-color: #EFFFFD;
+
+    display: none;
+
+}
+
+#header{
+    width: 100%;
+    background-color: #E15FED;
+    margin: 0% auto;
+    color: #EFFFFD;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+
+#text,#timer{
+    font-size: 25px;
+    padding: 1%;
+}
+
+.m-div {
+    width: 60%;
+    margin: 4% auto;
+    background-color: #EFFFFD;
+}
+
+.ques {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+
+.opt {
+    width: 98%;
+    height: auto;
+    font-size: 22px;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    align-items: center;
+}
+
+input{
+    cursor: pointer;
+}
+
+#grp {
+    width: 100%;
+}
+
+#res {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+}
+
+#btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #E15FED;
+    border: 2px solid #E15FED;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10%;
+    display: none;
+
+}
+
+#results{
+    width:80%;
+    height: auto;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: none;
+}
+#highestScore{
+    font-size: 20px;
+}
+#restart{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #E15FED;
+    border: 2px solid #E15FED;
+    color: white;
+    font-size: 20px;
+    margin: 5% auto;
+    cursor: pointer;
+}
